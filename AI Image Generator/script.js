@@ -21,7 +21,7 @@ const generateimage = async (inputText, select) => {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer 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"
+            "Authorization": "Bearer <Your API Key Here>"
         },
         body: JSON.stringify(
             {
